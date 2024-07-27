@@ -42,6 +42,6 @@ html {
 @media (max-width: 1367px) {
     /* สไตล์สำหรับหน้าจอกว้างไม่เกิน 1366px (เช่น iPad) */
     .main-zone {
-        margin-top: 29rem;
+        margin-top: 18rem;
     }
 }
