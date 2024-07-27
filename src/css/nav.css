@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    background-color: var(--pink100--);
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+}
+
+.left-section, .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem 3rem;
+
+    color: var(--pink600--);
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.header-text a, .text-image a {
+    color: var(--pink600--);
+    text-decoration: none;
+}
+
+@media (max-width: 1367px) {
+    /* สไตล์สำหรับหน้าจอกว้างไม่เกิน 1366px (เช่น iPad) */
+    .header {
+        height: 6rem;
+    }
+}
